@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .quote-content {
+    width: 90%;
+    max-height: 50vh;
+
+    overflow-y: scroll;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .quote-content > * {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .quote-content {
+    width: 90%;
+    max-height: 50vh;
+
+    overflow-y: scroll;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .quote-content > * {
+    font-size: 1.7rem !important;
+  }
+}
